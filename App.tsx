@@ -18,7 +18,7 @@ export default function App() {
   }
   const [first, setfirst] = useState();
   // how to set up a context with a provider
-  const themeContextObject:ThemeContextInterface = {theme:Theme.hacker,setTheme:()=>{}}
+  const themeContextObject:ThemeContextInterface = {theme:Theme.default,setTheme:()=>{}}
 
   function input(){
     const [first, setfirst] = useState("");

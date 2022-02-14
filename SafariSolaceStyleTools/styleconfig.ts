@@ -91,7 +91,7 @@ export default function GetColor(colorType:Color){
             }
         }
     }
-    if(Platform.OS == "android"){ return `${returnColor }ff`}
+    if(Platform.OS == "android"){ return `${returnColor }`}
     else return returnColor 
 
 }
